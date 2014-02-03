@@ -7,9 +7,9 @@
 <div id="blog_list" class="row">
 <div class="columns large-16">
 	<ul>
-	{% for slug, post in posts.items %}
+	{% for post in posts %}
 		<li>
-			<a href="{{ slug }}">{{ post.slug }}</a>
+			<a href="{{ post.year }}/{{ post.month }}/{{ post.day }}/{{ post.slug }}">{{ post.slug }}</a>
 		</li>
 
 		{%  include 'blog/_post.html' %}

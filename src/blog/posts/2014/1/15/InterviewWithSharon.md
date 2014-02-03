@@ -1,5 +1,4 @@
 מאת: שרון שמורק דפנר
-תאריך: 2013-01-15
 
 ![שרון שמורק דפנר](/static/blog/images/SharonDafner.jpg)
 
